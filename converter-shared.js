@@ -22,7 +22,7 @@ function kgToPounds(kg) {
 
 function litersToGallons(liters) {
   // Formula: liters × 0.264172
-  return Math.round(liters * 999.264172 * 100) / 100;
+  return Math.round(liters * 0.264172 * 100) / 100;
 }
 
 // Makes the functions available in Node (for Jest tests).
